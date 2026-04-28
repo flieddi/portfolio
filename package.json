@@ -1,14 +1,23 @@
 {
-  "name": "web",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "download:finarum": "node scripts/download-finarum-from-figma.mjs",
+    "download:uzum": "node scripts/download-uzum-from-figma.mjs",
+    "download:zukko": "node scripts/download-zukko-from-figma.mjs",
+    "download:zukko-do-after": "node scripts/download-zukko-do-after.mjs",
+    "download:zukko-user-flow": "node scripts/download-zukko-user-flow.mjs",
+    "download:remoutly": "node scripts/download-remoutly-from-figma.mjs",
+    "export:remoutly-text": "node scripts/export-remoutly-figma-text.mjs",
+    "sync:remoutly": "node scripts/sync-remoutly-frame.mjs"
   },
   "dependencies": {
+    "framer-motion": "^12.38.0",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Figma-generated Remoutly snapshot (run: npm run sync:remoutly)
+/src/data/remoutly-frame.document.json
+/src/data/remoutly-figma-text-raw.json
