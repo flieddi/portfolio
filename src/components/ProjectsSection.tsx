@@ -100,7 +100,7 @@ export function ProjectsSection() {
           className="relative flex w-full max-w-[362px] shrink-0 flex-col items-center justify-center gap-3"
         >
           <div className="relative flex h-[200px] w-[362px] max-w-full shrink-0 flex-col items-start overflow-clip rounded-[26px] bg-[color:var(--50,#f5f5f5)]">
-            <div className="absolute left-[calc(50%-0.5px)] top-3 h-[246px] w-[117px] -translate-x-1/2 rounded-[16px]">
+            <div className="absolute left-[calc(50%-0.5px)] top-3 h-[246px] w-[150px] -translate-x-1/2 rounded-[16px]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 alt=""
