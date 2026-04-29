@@ -52,6 +52,9 @@ export function AboutSection() {
         <div className="relative flex w-full shrink-0 flex-col items-start px-3">
           <a
             href={links.cv}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Открыть резюме (CV)"
             className="relative flex min-w-[44px] w-full shrink-0 items-center justify-center gap-2 overflow-clip rounded-[22px] p-3"
           >
             <span

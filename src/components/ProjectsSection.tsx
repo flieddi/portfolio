@@ -174,7 +174,11 @@ export function ProjectsSection() {
       <div className="relative flex w-full shrink-0 flex-col items-center justify-center px-5 pt-8">
         <div className="relative flex w-full shrink-0 flex-col items-center justify-center gap-3">
           <div className="relative flex w-full shrink-0 flex-col items-start overflow-clip rounded-[26px]">
-            <div className="relative h-[200px] w-full shrink-0 rounded-[20px] bg-[color:var(--50,#f5f5f5)]" />
+            <div className="relative flex h-[200px] w-full shrink-0 items-center justify-center rounded-[20px] bg-[color:var(--50,#f5f5f5)]">
+              <p className="text-center text-[24px] font-semibold leading-none tracking-wide text-[color:var(--color-accent)]">
+                SOON
+              </p>
+            </div>
             
             <div className="pointer-events-none absolute left-3 top-[160px] flex min-w-[28px] items-center justify-center gap-1.5 overflow-clip rounded-[16px] bg-[#ffffff] p-1.5">
               <p className="relative shrink-0 whitespace-nowrap text-center text-[12px] font-semibold leading-4 text-[color:var(--900,#383838)]">
