@@ -100,10 +100,14 @@ export function RemoutlyCaseStudy() {
           <p>— Цена и доступность скрыты до последнего шага</p>
           <p>— Все сервисы только веб, без мобильного приложения</p>
         </div>
-        <div className="overflow-x-auto overflow-y-hidden rounded-[26px]">
-          <div className="w-[713px] shrink-0">
+        <div className="overflow-x-auto rounded-[26px]">
+          <div className="relative aspect-[4104/2560] w-[713px] shrink-0 bg-[#f5f5f5]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="" src={remoutlyCompetitorsImage} className="block h-[280px] w-[513px] max-w-none object-cover" />
+            <img
+              alt=""
+              src={remoutlyCompetitorsImage}
+              className="pointer-events-none absolute inset-0 h-full w-full object-contain"
+            />
           </div>
         </div>
       </section>
@@ -113,10 +117,14 @@ export function RemoutlyCaseStudy() {
         <p className="text-[16px] font-medium leading-5 text-[#383838]">
           Я опросил 8 респондентов: фрилансеры, удалёнщики
         </p>
-        <div className="overflow-x-auto overflow-y-hidden rounded-[26px]">
-          <div className="w-[486px] shrink-0">
+        <div className="overflow-x-auto rounded-[26px]">
+          <div className="relative aspect-[3888/2880] w-[486px] shrink-0 bg-[#f5f5f5]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="" src={remoutlyInterviewImage} className="block h-[360px] w-[486px] max-w-none object-cover" />
+            <img
+              alt=""
+              src={remoutlyInterviewImage}
+              className="pointer-events-none absolute inset-0 h-full w-full object-contain"
+            />
           </div>
         </div>
         <div className="flex flex-col gap-2">
@@ -158,10 +166,14 @@ export function RemoutlyCaseStudy() {
           <p className="text-[16px] font-medium leading-5 text-[#383838]">
             Составил User Flow, чтобы зафиксировать минимальный путь пользователя и убрать лишние шаги до бронирования
           </p>
-          <div className="overflow-x-auto overflow-y-hidden rounded-[5px] border border-[#E1E1E1]">
-            <div className="w-[665px] shrink-0">
+          <div className="overflow-x-auto rounded-[5px] border border-[#E1E1E1]">
+            <div className="relative aspect-[5320/1440] w-[665px] shrink-0 bg-[#f5f5f5]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="" src={remoutlyUserFlowImage} className="block h-[180px] w-[665px] max-w-none object-cover" />
+              <img
+                alt=""
+                src={remoutlyUserFlowImage}
+                className="pointer-events-none absolute inset-0 h-full w-full object-contain"
+              />
             </div>
           </div>
         </div>
@@ -171,13 +183,9 @@ export function RemoutlyCaseStudy() {
             CJM помог найти точки неопределённости — моменты, где пользователь теряет уверенность и может уйти
           </p>
           <div className="overflow-x-auto rounded-[12px]">
-            <div className="w-[614px] shrink-0">
+            <div className="relative aspect-[5728/2240] w-[614px] shrink-0 bg-[#f5f5f5]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                alt=""
-                src={remoutlyCjmImage}
-                className="block h-[280px] min-w-0 w-fit max-w-none object-cover"
-              />
+              <img alt="" src={remoutlyCjmImage} className="pointer-events-none absolute inset-0 h-full w-full object-contain" />
             </div>
           </div>
         </div>
