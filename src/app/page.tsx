@@ -8,11 +8,11 @@ import { ProjectsSection } from "@/components/ProjectsSection";
 export default function Home() {
   return (
     <>
-      <Header />
       <div
         id="top"
-        className="relative mx-auto flex min-h-screen w-full max-w-[402px] flex-col items-center overflow-x-hidden rounded-[62px] bg-white pt-16"
+        className="relative mx-auto flex min-h-screen w-full max-w-[402px] flex-col items-center overflow-x-hidden rounded-[62px] bg-white pt-0"
       >
+        <Header />
         <main className="flex w-full flex-1 flex-col items-center">
           <Hero />
           <ProjectsSection />

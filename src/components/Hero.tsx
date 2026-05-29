@@ -12,7 +12,7 @@ export function Hero() {
             и заканчиваю понятным UI
           </span>
         </p>
-        <div className="absolute left-[166px] top-5 flex items-center justify-center bg-[color:var(--400,#bf7cff)]">
+        <div className="absolute left-[162px] top-5 flex items-center justify-center bg-[color:var(--400,#bf7cff)]">
           <p className="relative shrink-0 whitespace-nowrap text-[28px] font-medium leading-[1.15] tracking-[-1.12px] text-[color:var(--10,white)]">
             product designer
           </p>

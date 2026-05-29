@@ -193,25 +193,13 @@ export function ZukkoAiCaseStudy() {
       </CaseSection>
 
       {/* Actions — предыдущий / следующий кейс */}
-      <section className="flex w-full max-w-[402px] flex-col gap-2 self-center px-5 pt-12">
-        <div className="flex w-full flex-row items-center justify-center gap-3 self-stretch">
-          <p className="w-[175px] shrink-0 text-center text-[14px] font-medium leading-5 text-[#9c9c9c]">
+      <section className="flex w-full max-w-[402px] flex-col gap-2 self-center pt-12">
+        <div className="flex w-full flex-row items-center justify-start gap-3 self-stretch">
+          <p className="w-[175px] shrink-0 text-left text-[14px] font-medium leading-5 text-[#9c9c9c]">
             Предыдущий кейс
           </p>
-          <p className="w-[175px] shrink-0 text-center text-[14px] font-medium leading-5 text-[#9c9c9c]">
-            Следующий кейс
-          </p>
         </div>
-        <div className="flex w-full flex-row items-center justify-center gap-3 self-stretch">
-          <Link
-            href="/case/finarum"
-            className="relative flex w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
-          >
-            <span className="text-center text-[16px] font-semibold leading-5 text-[#515151]">
-              Finarum
-            </span>
-            <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
-          </Link>
+        <div className="flex w-full flex-row items-center justify-start gap-3 self-stretch">
           <Link
             href="/case/uzum-bank"
             className="relative flex w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"

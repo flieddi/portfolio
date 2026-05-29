@@ -270,11 +270,11 @@ export function FinarumCaseStudy() {
         </div>
         <div className="flex w-full flex-row items-center justify-end gap-3 self-stretch">
           <a
-            href="/case/zukko-ai"
+            href="/case/qrtifact"
             className="relative flex w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
           >
             <span className="text-center text-[16px] font-semibold leading-5 text-[#515151]">
-              Zukko AI
+              QRtifact
             </span>
             <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
           </a>

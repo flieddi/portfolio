@@ -28,7 +28,7 @@ export default async function RemoutlyCasePage() {
       <Header />
       <div
         id="top"
-        className="relative mx-auto flex min-h-screen w-full max-w-[402px] flex-col items-center overflow-x-visible rounded-[62px] bg-white pt-16"
+        className="relative mx-auto flex min-h-screen w-full max-w-[402px] flex-col items-center overflow-x-visible rounded-[62px] bg-white pt-5"
       >
         {document ? <RemoutlyFigmaFrame document={document} /> : <RemoutlyCaseStudy />}
       </div>

@@ -32,3 +32,18 @@ body {
   color: var(--color-text);
   font-family: var(--font-sans);
 }
+
+.header-glass {
+  background-color: rgba(255, 255, 255, 0.1);
+  isolation: isolate;
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+@supports not (
+  (-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))
+) {
+  .header-glass {
+    background-color: rgba(255, 255, 255, 0.72);
+  }
+}

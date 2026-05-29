@@ -25,7 +25,7 @@ const remoutlyDesign08 = "/images/remoutly/remoutlyDesign08.png";
 export function RemoutlyCaseStudy() {
   return (
     <main className="flex w-full flex-col items-center gap-12 px-5 pb-8 pt-0">
-      <section className="flex w-full max-w-[362px] flex-col gap-4 self-center pt-5">
+      <section className="flex w-full max-w-[362px] flex-col gap-4 self-center pt-0">
         <div className="flex flex-col gap-1">
           <h1 className="text-[20px] font-semibold leading-[26px] text-[#383838]">Remoutly</h1>
           <p className="text-[16px] font-medium leading-5 text-[#9C9C9C]">
@@ -279,11 +279,11 @@ export function RemoutlyCaseStudy() {
         </div>
         <div className="flex w-full flex-row items-center justify-center gap-3 self-stretch">
           <a
-            href="/case/uzum-bank"
+            href="/case/zikko-ai"
             className="relative flex w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
           >
             <span className="text-center text-[16px] font-semibold leading-5 text-[#515151]">
-              Uzum Bank
+              Zukko
             </span>
             <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
           </a>

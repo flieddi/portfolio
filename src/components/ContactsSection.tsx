@@ -40,7 +40,7 @@ function SocialMedia({
 
 export function ContactsSection() {
   return (
-    <div className="relative mb-12 flex w-full shrink-0 flex-col items-start pt-16">
+    <div className="relative flex w-full shrink-0 flex-col items-start pt-16">
       <div className="relative flex w-full shrink-0 items-center justify-center px-5">
         <p className="relative min-w-0 flex-1 text-[18px] font-medium leading-6 text-[color:var(--500,#9c9c9c)]">
           Контакты

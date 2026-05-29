@@ -20,7 +20,7 @@ export function AboutSection() {
           />
         </div>
       </div>
-      <div className="relative flex w-full shrink-0 flex-col items-center justify-center gap-3 px-5 pt-5">
+      <div className="relative flex w-full shrink-0 flex-col items-center justify-center gap-3 px-5 pt-5 pb-5">
         <div className="relative flex w-full shrink-0 flex-col items-center justify-center gap-4 overflow-clip rounded-[26px] bg-[color:var(--50,#f5f5f5)] p-5 font-medium">
           <div className="relative flex w-full shrink-0 flex-col gap-1">
             <p className="relative w-full shrink-0 text-[18px] leading-6 text-[color:var(--900,#383838)]">
@@ -77,7 +77,7 @@ export function AboutSection() {
             Немного слов
           </p>
           <p className="relative w-full shrink-0 text-[16px] text-[color:var(--900,#383838)]">
-            Продуктовый дизайнер с 1.5 годами опыта в B2B и стартап-продуктах.
+            Продуктовый дизайнер с 2 годами опыта в B2B,B2C и стартап-продуктах.
             Специализируюсь на мобильных интерфейсах, работал с системами — CRM,
             ERP, POS. Работаю от проблемы до передачи в разработку: анализ,
             гипотезы, проектирование и работа в команде.
