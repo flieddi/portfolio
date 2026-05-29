@@ -3,7 +3,7 @@
  * Source: public/images/QRtifact
  */
 export const qrtifactImages = {
-  preview: "/images/QRtifact/preview.png",
+  preview: "/images/QRtifact/Preview.png",
   userFlow: "/images/QRtifact/UserFlow-QRtifact.png",
   cjm: "/images/QRtifact/CJM-QRtifact.png",
   registration: "/images/QRtifact/SignIn-QRtifact.png",
