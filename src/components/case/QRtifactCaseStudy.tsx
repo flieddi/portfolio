@@ -76,7 +76,7 @@ export function QRtifactCaseStudy() {
             1 Product Designer
           </p>
           <p className="text-[16px] font-medium leading-5 text-[color:var(--900,#383838)]">
-            2 Enginers
+            2 Engineers
           </p>
           <p className="text-[16px] font-medium leading-5 text-[color:var(--900,#383838)]">
             1 Founder

@@ -59,7 +59,7 @@ export function FinarumCaseStudy() {
         <div className="flex flex-col gap-1 self-stretch">
           <CaseLabel>Команда</CaseLabel>
           <CaseTextBlock>2 Product Designers</CaseTextBlock>
-          <CaseTextBlock>3 Enginers</CaseTextBlock>
+          <CaseTextBlock>3 Engineers</CaseTextBlock>
           <CaseTextBlock>1 Manager</CaseTextBlock>
         </div>
         <div className="flex flex-col gap-1 self-stretch">

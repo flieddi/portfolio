@@ -57,7 +57,7 @@ export function RemoutlyCaseStudy() {
         <div className="flex flex-col gap-1">
           <p className="text-[14px] font-medium leading-5 text-[#9C9C9C]">Команда</p>
           <p className="text-[16px] font-medium leading-5 text-[#383838]">Product Designer</p>
-          <p className="text-[16px] font-medium leading-5 text-[#383838]">Enginer</p>
+          <p className="text-[16px] font-medium leading-5 text-[#383838]">Engineer</p>
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-[14px] font-medium leading-5 text-[#9C9C9C]">Чем я занимался</p>
@@ -268,35 +268,19 @@ export function RemoutlyCaseStudy() {
         </p>
       </section>
 
-      <section className="flex w-full flex-col gap-2 self-center pt-12">
-        <div className="flex w-full flex-row items-center justify-center gap-3 self-stretch">
-          <p className="w-[175px] text-left text-[14px] font-medium leading-5 text-[#9c9c9c]">
-            Предыдущий кейс
-          </p>
-          <p className="w-[175px] text-left text-[14px] font-medium leading-5 text-[#9c9c9c]">
-            Следующий кейс
-          </p>
-        </div>
-        <div className="flex w-full flex-row items-center justify-center gap-3 self-stretch">
-          <a
-            href="/case/zikko-ai"
-            className="relative flex w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
-          >
-            <span className="text-center text-[16px] font-semibold leading-5 text-[#515151]">
-              Zukko
-            </span>
-            <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
-          </a>
-          <button
-            type="button"
-            className="relative flex h-[52px] w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 py-0 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
-          >
-            <span className="w-[120px] text-left text-[16px] font-semibold l text-[#515151]">
-              Side projects
-            </span>
-            <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
-          </button>
-        </div>
+      <section className="flex w-full flex-col gap-2 pt-12">
+        <p className="text-left text-[14px] font-medium leading-5 text-[#9c9c9c]">
+          Предыдущий кейс
+        </p>
+        <a
+          href="/case/zukko-ai"
+          className="relative flex h-[52px] w-[175px] flex-row items-center justify-center gap-2 overflow-hidden rounded-[26px] bg-[#f5f5f5] px-4 shadow-[inset_0px_0px_8px_-2px_rgba(255,255,255,0.12)] backdrop-blur-[16px]"
+        >
+          <span className="text-center text-[16px] font-semibold leading-5 text-[#515151]">
+            Zukko AI
+          </span>
+          <ArrowUpRight className="h-5 w-5 shrink-0 text-[#9C9C9C]" />
+        </a>
       </section>
 
       <Footer />
